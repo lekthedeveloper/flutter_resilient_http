@@ -1,0 +1,22 @@
+name: flutter_resilient_http
+description: A resilient HTTP client wrapper for Flutter with exponential backoff retries, circuit breaker pattern, and offline request queueing.
+version: 1.0.0
+homepage: https://github.com/lekthedeveloper/flutter_resilient_http
+repository: https://github.com/lekthedeveloper/flutter_resilient_http
+issue_tracker: https://github.com/lekthedeveloper/flutter_resilient_http/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
