@@ -1,3 +1,6 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+- Initial release of `flutter_resilient_http`.
+- Added exponential backoff retries with randomized jitter.
+- Added circuit breaker pattern state machine.
+- Added offline request queueing and replay engine.
